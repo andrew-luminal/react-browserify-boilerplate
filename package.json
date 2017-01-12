@@ -2,6 +2,7 @@
   "name": "",
   "version": "",
   "dependencies": {
+    "jquery": "^3.1.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
@@ -12,5 +13,8 @@
     "browserify": "^13.3.0",
     "browserify-livereload": "^1.0.9",
     "watchify": "^3.8.0"
+  },
+  "scripts": {
+    "start": "watchify -t [ babelify ] -p [ browserify-livereload ] src/index.js -o build/app.js -v"
   }
 }

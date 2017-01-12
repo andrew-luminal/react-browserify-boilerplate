@@ -17,5 +17,25 @@ npm install
 ## Running
 Run the following command:
 ```
-watchify -t [ babelify ] -p [ browserify-livereload ] src/index.js -o build/app.js -v
+npm start
+```
+
+## Steps from Workshop
+
+### Installing jQuery
+To install jQuery, run
+```
+npm install jquery --save
+```
+
+You should now be able to verify that jquery was added to the `dependencies` section of `package.json`.
+
+### Creating a component
+To create a component, copy a simple existing component: `src/AppHeader.js`. Change the class name and export reference:
+```
+class <strong>MyNewComponent</strong> extends React.Component {
+	...
+}
+
+export default <strong>MyNewComponent</strong>;
 ```
