@@ -33,9 +33,9 @@ You should now be able to verify that jquery was added to the `dependencies` sec
 ### Creating a component
 To create a component, copy a simple existing component: `src/AppHeader.js`. Change the class name and export reference:
 ```
-class <strong>MyNewComponent</strong> extends React.Component {
+class MyNewComponent extends React.Component {
 	...
 }
 
-export default <strong>MyNewComponent</strong>;
+export default MyNewComponent;
 ```
